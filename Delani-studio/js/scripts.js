@@ -4,11 +4,14 @@ $('.main').click(function() {
 });
 $("button").click(function (kami) {
   var client = document.getElementById('client').value;
-  alert( client +' we have received your message');
+  alert( client +' we have received your message' +'Thank you');
   kami.preventDefault();
 });
 $("button").on('click', function() {
   $('form').each(function() {
     this.reset();
   });
+});
+$(".what").hover(function () {
+  $(this).children(".want").fadeToggle(1000, "linear");
 });
