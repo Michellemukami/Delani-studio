@@ -69,3 +69,30 @@
   .hide{
     display: none;
   }
+  .form-cont input {
+      width: 49%;
+      background: transparent;
+  }
+  .form-cont textarea {
+      margin-top: 10px;
+      width: 100%;
+      background: transparent;
+  }
+  .form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+::placeholder,
+.con {
+    color: #fff;
+}
+::placeholder{
+    font-size: 10px;
+}
+.con {
+    padding-bottom: 30px;
+}
