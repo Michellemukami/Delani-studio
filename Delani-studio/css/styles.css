@@ -97,6 +97,11 @@
     padding-bottom: 30px;
 }
 .what{
-  padding:  9px !important;
-  margin: 9px !important;
+  display: inline-block;
+}
+.mop{
+  padding-top: 10px;
+}
+.mop2{
+  padding-top: 10px;
 }
