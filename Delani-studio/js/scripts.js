@@ -1,5 +1,4 @@
-$(document).ready(function() {
-  $("img").click(function() {
-    $("hide").toggle();
-  });
+$('.main').click(function () {
+  $(this).children('.hide').slideToggle(1200);
+  $(this).children('.show').toggle(1500);
 });
